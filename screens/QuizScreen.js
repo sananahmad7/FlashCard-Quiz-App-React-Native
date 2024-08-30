@@ -1,6 +1,6 @@
 // screens/QuizScreen.js
 import React from "react";
-import { View } from "react-native";
+import { View, StyleSheet, Image } from "react-native";
 import Quiz from "../components/Quiz.js";
 
 const QuizScreen = ({ flashcards }) => {
@@ -11,4 +11,5 @@ const QuizScreen = ({ flashcards }) => {
   );
 };
 
+const styles = StyleSheet.create({});
 export default QuizScreen;
